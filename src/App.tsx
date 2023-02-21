@@ -13,7 +13,7 @@ import { ReactComponent as SelfCareIcon } from './assets/icon-self-care.svg'
 
 function App() {
   return (
-    <div className='bg-gray-900 w-full h-full fixed overflow-auto'>
+    <div className='bg-gray-900 w-full h-full fixed overflow-auto' style={{placeItems: "center", display: "flex", justifyContent: "center"}}>
       <div className="items-center justify-center relative">
         <div className="flex md:flex-row flex-col place-content-center p-10">
           <Profile />
